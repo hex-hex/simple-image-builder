@@ -1,3 +1,3 @@
 FROM nginx:latest
-COPY ./build /usr/share/nginx/html
+COPY ./build/skxt /usr/share/nginx/html/skxt
 COPY ./default.conf /etc/nginx/conf.d/default.conf
