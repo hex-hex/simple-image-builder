@@ -1,4 +1,4 @@
-FROM openjdk:8u342-slim
+FROM cfgglobal/unique:jingxin-java-base
 
 COPY ./build /root
 WORKDIR /root
